@@ -1,0 +1,52 @@
+body {
+    background-color: red;
+    margin: 0;
+    display: flex;
+    padding-left: 255px;
+    
+}
+.container {
+    background-color: white;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    display: flex;
+    height: 120px;
+    background-color: white;
+}
+nav {
+    background-color: black;
+}
+nav ul {
+    margin: 0;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center; 
+}
+nav ul li a {
+    color: white;
+    padding: 25px;
+}
+.content-split {
+    display: flex; 
+    height: 370px; 
+}
+.left-box {
+    background-color: green;
+    width: 30%;
+    color: white;
+    padding: 10px;
+}
+.right-box {
+    background-color: orange;
+    width: 70%;
+    color: white;
+    padding: 10px;
+}
+footer {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
